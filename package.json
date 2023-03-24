@@ -1,6 +1,6 @@
 {
   "name": "unified-consistency",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Report inconsistencies between the input and output of a unified pipeline",
   "keywords": [
     "rehype",
