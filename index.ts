@@ -15,7 +15,7 @@ const replace = `${source}:replace`
 const unifiedConsistency: Plugin<[]> = function unifiedConsistency() {
   return (ast, file) => {
     const original = String(file)
-    const formatted = String(this.stringify(ast))
+    const formatted = String(this.stringify(ast, file))
 
     const differences = generateDifferences(original, formatted)
     const { toPoint } = location(original)
