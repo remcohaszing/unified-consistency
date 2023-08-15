@@ -8,6 +8,16 @@
 A [unified](https://unifiedjs.com) plugin which reports inconsistencies between the input and what a
 pipeline would output.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [API](#api)
+  - [Options](#options)
+- [Examples](#examples)
+  - [Configuration file](#configuration-file)
+  - [Programmatic use](#programmatic-use)
+- [License](#license)
+
 ## Installation
 
 ```sh
@@ -65,6 +75,6 @@ Yields:
 ⚠ 1 warning
 ```
 
-### License
+## License
 
 [MIT](LICENSE.md) @ [Remco Haszing](https://github.com/remcohaszing)
