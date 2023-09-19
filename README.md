@@ -36,6 +36,10 @@ always specify this plugin last. It works with all unified ecosystems, including
 
 This plugin has no options.
 
+## Compatibility
+
+This project is compatible with Node.js 18 or greater.
+
 ## Examples
 
 ### Configuration file

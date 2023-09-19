@@ -45,8 +45,5 @@
     "tsx": "^3.0.0",
     "typescript": "^5.0.0",
     "vfile-message": "^4.0.0"
-  },
-  "engines": {
-    "node": ">=16.0.0"
   }
 }
