@@ -1,8 +1,9 @@
 # unified-consistency
 
 [![github actions](https://github.com/remcohaszing/unified-consistency/actions/workflows/ci.yaml/badge.svg)](https://github.com/remcohaszing/unified-consistency/actions/workflows/ci.yaml)
-[![npm](https://img.shields.io/npm/v/unified-consistency)](https://www.npmjs.com/package/unified-consistency)
-[![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
+[![npm version](https://img.shields.io/npm/v/unified-consistency)](https://www.npmjs.com/package/unified-consistency)
+[![npm downloads](https://img.shields.io/npm/dm/unified-consistency)](https://www.npmjs.com/package/unified-consistency)
+
 [![codecov](https://codecov.io/gh/remcohaszing/unified-consistency/branch/main/graph/badge.svg)](https://codecov.io/gh/remcohaszing/unified-consistency)
 
 A [unified](https://unifiedjs.com) plugin which reports inconsistencies between the input and what a
@@ -13,6 +14,7 @@ pipeline would output.
 - [Installation](#installation)
 - [API](#api)
   - [Options](#options)
+- [Compatibility](#compatibility)
 - [Examples](#examples)
   - [Configuration file](#configuration-file)
   - [Programmatic use](#programmatic-use)
@@ -45,8 +47,8 @@ This project is compatible with Node.js 18 or greater.
 ### Configuration file
 
 This plugin is best used in a
-[configuration file](https://github.com/unifiedjs/unified-engine/blob/main/doc/configure.md). For
-example:
+[configuration file](https://github.com/unifiedjs/unified-engine/blob/main/readme.md#config-files).
+For example:
 
 ```yaml
 # .remarkrc.yaml
@@ -81,4 +83,4 @@ Yields:
 
 ## License
 
-[MIT](LICENSE.md) @ [Remco Haszing](https://github.com/remcohaszing)
+[MIT](LICENSE.md) © [Remco Haszing](https://github.com/remcohaszing)
