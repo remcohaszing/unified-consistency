@@ -32,16 +32,16 @@ const unifiedConsistency: Plugin = function unifiedConsistency() {
               source
             })
           : operation === generateDifferences.REPLACE
-          ? file.message(`Replace ${toDelete} with ${toInsert}`, {
-              place: position,
-              ruleId: 'replace',
-              source
-            })
-          : file.message(`Insert ${toInsert}`, {
-              place: start,
-              ruleId: 'insert',
-              source
-            })
+            ? file.message(`Replace ${toDelete} with ${toInsert}`, {
+                place: position,
+                ruleId: 'replace',
+                source
+              })
+            : file.message(`Insert ${toInsert}`, {
+                place: start,
+                ruleId: 'insert',
+                source
+              })
 
       message.url = url
       message.expected = [insertText]
