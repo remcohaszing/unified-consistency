@@ -2,9 +2,8 @@ import assert from 'node:assert/strict'
 import { test } from 'node:test'
 
 import { remark } from 'remark'
+import unifiedConsistency from 'unified-consistency'
 import { VFileMessage } from 'vfile-message'
-
-import unifiedConsistency from './index.js'
 
 test('delete', () => {
   const processor = remark().use(unifiedConsistency)
