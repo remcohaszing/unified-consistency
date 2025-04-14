@@ -4,7 +4,8 @@ export default [
   ...config,
   {
     rules: {
-      'func-style': 'off'
+      'func-style': 'off',
+      'n/no-extraneous-import': 'off'
     }
   }
 ]
